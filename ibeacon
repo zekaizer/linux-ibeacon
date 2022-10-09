@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 """
 Usage: sudo ibeacon [-u|--uuid=UUID or `random' (default=Beacon Toolkit app)]
