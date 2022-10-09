@@ -72,6 +72,7 @@ def process_command(c):
 
 # check to see if we are the superuser - returns 1 if yes, 0 if no
 def check_for_sudo():
+  return 1# for service
   if 'SUDO_UID' in os.environ.keys():
     return 1
   else:
